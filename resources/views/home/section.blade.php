@@ -13,14 +13,14 @@
                       </h1>
                       <br><br>
                       <p>
-                        Toko Online untuk semua kebutuhan anda
+                        Ecommerce For All Your Needs
                       </p>
                      
                     </div>
                   </div>
                   <div class="col-md-5 ">
                     <div class="img-box">
-                      <img style="width:600px" src="images/image3.jpeg" alt="" />
+                      <img style="width:400px" src="images/blackfriday.jpg" alt="" />
                     </div>
                   </div>
                 </div>

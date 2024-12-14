@@ -7,7 +7,7 @@
               ABOUT US
             </h6>
             <p>
-              Toko Online untuk semua kebutuhan anda
+            Ecommerce For All Your Needs
             </p>
           </div>
           
