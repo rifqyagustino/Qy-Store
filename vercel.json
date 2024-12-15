@@ -29,7 +29,6 @@
         "DB_HOST": "3q2j0.h.filess.io",
         "DB_PORT": "3307",
         "DB_DATABASE": "qystore_holdplant",
-        "DB_USERNAME": "qystore_holdplant",
-        "DB_PASSWORD": "d527e8e8e1f9191ead3b18bf05d1060ec1553a94"
+        "DB_USERNAME": "qystore_holdplant"
     }
 }
