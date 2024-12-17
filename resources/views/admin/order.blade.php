@@ -21,6 +21,7 @@
                     <th>Image</th>
                     <th>Status</th>
                     <th>Change Status</th>
+                    <th>Print PDF</th>
                 </tr>
 
                 @foreach($data as $data)
@@ -44,6 +45,8 @@
                     
                     <td><a href="{{url('on_the_way', $data->id)}}" class="btn btn-primary">On The Way</a>
                     <a href="{{url('delivered', $data->id)}}" class="btn btn-success">Delivered</a></td>
+
+                    <td > <a  class="btn btn-secondary" href="{{url('print_pdf', $data->id)}}">Print PDF</a></td>
                 </tr>
                 @endforeach
             </table>

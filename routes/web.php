@@ -91,3 +91,6 @@ middleware(['auth', 'admin']);
 
 Route::get('delivered/{id}', [AdminController::class, 'delivered'])->
 middleware(['auth', 'admin']);
+
+Route::get('print_pdf/{id}', [AdminController::class, 'print_pdf'])->
+middleware(['auth', 'admin']);
