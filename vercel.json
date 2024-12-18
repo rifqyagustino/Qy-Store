@@ -23,6 +23,10 @@
             "dest": "/public/js/$1"
         },
         {
+            "src": "/fonts/(.*)",
+            "dest": "/public/fonts/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
@@ -30,7 +34,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://example-atomik.vercel.app/",
+        "APP_URL": "https://qy-store.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
