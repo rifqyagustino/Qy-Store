@@ -33,7 +33,7 @@
         "DB_PORT": "3307",
         "DB_DATABASE": "qystore_holdplant",
         "DB_USERNAME": "qystore_holdplant",
-        "APP_KEY": "APP_KEY=base64:7XQ8HNWn/K/VdkJC6mnqvco6m3DH3Q/Zttv5EklBELw="
+        "APP_KEY": "base64:7XQ8HNWn/K/VdkJC6mnqvco6m3DH3Q/Zttv5EklBELw="
     },
     "outputDirectory": "public"
 }
