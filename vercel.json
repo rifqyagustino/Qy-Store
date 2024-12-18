@@ -7,6 +7,12 @@
     },
     "routes": [
         {
+            "src": "/(.*)",
+            "headers": { "Location": "https://qy-store.vercel.app/$1" },
+            "status": 301,
+            "dest": "/$1"
+        },
+        {
             "src": "/build/(.*)",
             "dest": "/public/build/$1"
         },
